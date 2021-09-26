@@ -48,13 +48,13 @@ footerTestPages.forEach((url) => {
           .should(
             "have.attr",
             "href",
-            "https://github.com/Vagr9K/gatsby-advanced-starter"
+            "https://ufatop1.net"
           );
       });
 
       it("has a copyright notice", () => {
         cy.get("@footer").then((container) => {
-          cy.findByText("© Copyright 2021 | Ruben Harutyunyan", {
+          cy.findByText("© Copyright 2021 | UFATOP1.NET", {
             container,
           });
         });
